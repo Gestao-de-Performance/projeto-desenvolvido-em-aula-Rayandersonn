@@ -1,8 +1,18 @@
 :root{
+    --black-300: #212121
+    --purple-300: #8733ff
+
 
 }
 body{
     background-color: #212121;
+}
+.containerHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 85%;
+
 }
 
 .logoSite{
