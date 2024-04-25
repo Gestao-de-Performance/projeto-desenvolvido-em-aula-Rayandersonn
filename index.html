@@ -27,9 +27,9 @@
               <div class="containerHeader">
                 <img class="logoSite" src="img/escola-de-programadores.png">
                 <nav class="containerButtons">
-                    <a class="buttonHeader" href="#apresentacao">Apresentação</a>
-                    <a class="buttonHeader" href="#skills">Skills</a>
-                    <a class="buttonHeader" href="#contatos">Contatos</a>
+                    <a class="button" href="#apresentacao">Apresentação</a>
+                    <a class="button" href="#skills">Skills</a>
+                    <a class="button" href="#contatos">Contatos</a>
 
                 </nav>
               </div>
@@ -42,35 +42,35 @@
              <div id="apresentacao"class="marginContainer">
                 <div>
                     <h1 class="tituloBloco"> Mago</h1>
-                    <p>Se você está em busca de alguém capaz de tornar suas visões online em verdadeiras obras-primas digitais, você está no lugar certo. Sou o Mago do Desenvolvimento Web, e minha paixão é transformar conceitos abstratos em experiências digitais tangíveis.</p>
+                    <p class="paragrafo">Se você está em busca de alguém capaz de tornar suas visões online em verdadeiras obras-primas digitais, você está no lugar certo. Sou o Mago do Desenvolvimento Web, e minha paixão é transformar conceitos abstratos em experiências digitais tangíveis.</p>
                 </div>
                 <img width="500px" src="img/personagens_gestao.webp">
              </div>
             </section>
 
-            <section titlle="skills" class="marginContainer">
-                <div id="skills">
+            <section titlle="skills">
+                <div id="skills" class="marginContainer">
                     <h2 class="tituloBloco">Skills</h2>
 
                     <div class="skillContainer">
-                     <div class="skills">
+                     <div class="skill htmlColorBorder">
                         <img src="img/png-clipart-html-logo-html5-logo-icons-logos-emojis-tech-companies-thumbnail.png" alt="">
                         <h3>html</h3>
                     </div>
 
-                     <div class="skills">
+                     <div class="skill cssColorBorder">
                         <img src="img/png-clipart-html-logo-html5-logo-icons-logos-emojis-tech-companies-thumbnail.png" alt="">
                         <h3>CSS</h3>
                     </div>
 
-                     <div class="skills">
+                     <div class="skill jsColorBorder">
                         <img src="img/png-clipart-html-logo-html5-logo-icons-logos-emojis-tech-companies-thumbnail.png" alt="">
                         <h3>JavaScript</h3>
                     </div>
 
-                     <div class="skills">
+                     <div class="skill wpColorBorder">
                         <img src="img/png-clipart-html-logo-html5-logo-icons-logos-emojis-tech-companies-thumbnail.png" alt="">
-                        <h3">wordpress</h3>
+                        <h3>wordpress</h3>
                      </div>
                      
                     </div>
@@ -81,29 +81,25 @@
             <seCtion title="contatos">
                 <div id="contatos"class="marginContainer">
                     <h2 class="tituloBloco">Contatos</h2>
-                    <p>preencha o formulario e entrarei em contato</p>
-                     <div>
-                        <form >
+                    <p class="paragrafo">preencha o formulario e entrarei em contato</p>
 
-                         <label for="nome">name:</label>
-                         <input type="text" name="nome">
+                        <form class="formularioContato" >
 
-                         <label for="nome">Email:</label>
-                         <input type="email" name="email">
+                            <input type="text" name="nome" placeholder="Digite seu nome."/>
 
-                         <label for="numero">Telefone:</label>
-                         <input type="text" name="numero">
-
-                         <button type="submit">Enviar</button>
+                            <input type="email" name="email" placeholder="E-mail."/>
+    
+                            <input type="phone" name="numero" placeholder="Telefone com DDD."/>
+    
+                            <textarea placeholder="Escreva seu assunto."></textarea>
+    
+                            <button class="button" type="submit">Enviar</button>
 
                         </form>
-
-
-                     </div>
                 </div>
             </seCtion>
-        
-    
+
+
         </main>
         <footer>
             <div>
